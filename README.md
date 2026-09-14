@@ -6,9 +6,7 @@ A comprehensive, hands-on project demonstrating enterprise-grade disaster recove
 
 ## 🏗️ Architecture Overview
 
-*(Upload your architecture diagram image into a `docs/` folder or root folder, and ensure the filename matches below)*
-
-![AWS Disaster Recovery Architecture](./docs/architecture.png)
+![Architecture Diagram](./docsarchitecture.png.jfif)
 
 ---
 
