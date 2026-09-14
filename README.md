@@ -69,7 +69,7 @@ A comprehensive, hands-on project demonstrating enterprise-grade disaster recove
 
 ```
 
-###💡 Key Learnings
+💡 Key Learnings
 Decoupling Storage from Compute: Ensuring application data lives on independent EBS volumes prevents data loss during server termination.
 
 Backup Automation: Regular snapshot policies are critical for adhering to strict business RPO limits.
