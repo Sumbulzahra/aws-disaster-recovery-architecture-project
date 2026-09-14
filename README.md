@@ -6,7 +6,7 @@ A comprehensive, hands-on project demonstrating enterprise-grade disaster recove
 
 ## 🏗️ Architecture Overview
 
-![Architecture Diagram](https://raw.githubusercontent.com/Sumbulzahra/aws-disaster-recovery-architecture-project/refs/heads/main/(.docsarchitecture.png).jfif)
+![AWS Disaster Recovery Architecture](./docs/architecture.png)
 
 ---
 
