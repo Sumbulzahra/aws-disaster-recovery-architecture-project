@@ -6,7 +6,7 @@ A comprehensive, hands-on project demonstrating enterprise-grade disaster recove
 
 ## 🏗️ Architecture Overview
 
-![Architecture Diagram](./docsarchitecture.png.jfif)
+![Architecture Diagram](https://raw.githubusercontent.com/Sumbulzahra/aws-disaster-recovery-architecture-project/refs/heads/main/(.docsarchitecture.png).jfif)
 
 ---
 
