@@ -66,3 +66,18 @@ A comprehensive, hands-on project demonstrating enterprise-grade disaster recove
 │   └── backup_data.py      # Automated python backup routines
 └── docs/                   # Architecture diagrams and screenshots
     └── architecture.png    # High-level DR workflow diagram
+
+```
+
+###💡 Key Learnings
+Decoupling Storage from Compute: Ensuring application data lives on independent EBS volumes prevents data loss during server termination.
+
+Backup Automation: Regular snapshot policies are critical for adhering to strict business RPO limits.
+
+Geographic Redundancy: Cross-region replication of AMIs and snapshots is non-negotiable for mitigating large-scale cloud provider outages.
+
+👨‍💻 Author
+Sumbul Zahra
+
+LinkedIn Profile https://www.linkedin.com/in/miss-s-zahra/
+
