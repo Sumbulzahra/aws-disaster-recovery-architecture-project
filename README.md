@@ -60,19 +60,19 @@ Prerequisites:
 
 ---
 
-##🚀 Execution & Operating Guide
-###1. Clone the RepositoryBashgit clone [https://github.com/Sumbulzahra/aws-disaster-recovery-architecture-project.git](https://github.com/Sumbulzahra/aws-disaster-recovery-architecture-project.git)
+## 🚀 Execution & Operating Guide
+### 1. Clone the RepositoryBashgit clone [https://github.com/Sumbulzahra/aws-disaster-recovery-architecture-project.git](https://github.com/Sumbulzahra/aws-disaster-recovery-architecture-project.git)
 cd aws-disaster-recovery-architecture-project
 
-###2. Configure Automated Backups (scripts/) 
+### 2. Configure Automated Backups (scripts/) 
 Make the script executable and set up a local cron job to automate backups:Bashchmod +x scripts/ebs_snapshot_backup.sh
 crontab -e
 Add a cron entry to trigger backups every 15 minutes:Code snippet*/15 * * * * /bin/bash /path/to/aws-disaster-recovery-architecture-project/scripts/ebs_snapshot_backup.sh >> /var/log/ebs_dr.log 2>&1
 
-###3. Replicate Snapshots Across Regions (scripts/)
+### 3. Replicate Snapshots Across Regions (scripts/)
 Execute the Python replication script to copy primary snapshots (us-east-1) to your recovery region (us-west-2):Bashpython3 scripts/cross_region_copy.py --source-region us-east-1 --target-region us-west-2
 
-###4. Trigger Disaster Recovery Failover (scripts/)
+### 4. Trigger Disaster Recovery Failover (scripts/)
 In the event of an outage, run the recovery script to restore the volume in the DR region:Bashchmod +x scripts/dr_failover_restore.sh
 ./scripts/dr_failover_restore.sh --region us-west-2 --instance-id i-xxxxxxxxxxxxxxxxx
 
