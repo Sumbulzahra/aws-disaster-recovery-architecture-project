@@ -77,11 +77,16 @@ In the event of an outage, run the recovery script to restore the volume in the 
 ./scripts/dr_failover_restore.sh --region us-west-2 --instance-id i-xxxxxxxxxxxxxxxxx
 
 ---
+## 📐 Architecture Diagram
+
+![AWS Disaster Recovery Architecture](./docs/architecture.png)
+
+---
 
 ## 📖 Technical Documentation
 
-For in-depth operational design, failure scenarios, and architectural decisions, refer to the full specification inside the `docs/` folder:
-- 📄 **[Architecture Specification File](./docs/architecture_spec.md)**
+For detailed architectural specifications and disaster recovery procedures, refer to the docs folder:
+- 🖼️ **[View Architecture Diagram](./docs/architecture.png)**
 
 ---
 
